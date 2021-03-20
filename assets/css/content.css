@@ -1,0 +1,15 @@
+.content {
+  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
+  background-position: top -500px left -350px, right -250px bottom -650px;
+  background-size: auto, inherit;
+  background-repeat: no-repeat, no-repeat;
+    
+  width: 100vw;
+  height: calc(100vh - 20px);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}

@@ -1,0 +1,98 @@
+.profile {
+
+  background-color: var(--white);
+
+  width: 350px;
+  height: 375px;
+
+  border-radius: 10px;
+
+  /* margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .profile__detail {
+
+  
+} */
+
+.profile__header {
+  background: url(../../images/bg-pattern-card.svg);
+  height: 140px;
+  border-radius: 10px 10px 0 0;
+
+}
+
+.profile__avatar {
+  width: 100px;
+  height: 100px;
+
+  border: 5px solid var(--white);
+  border-radius: 100%;
+
+  position: relative;
+  top: 100%;
+  left: 50%;
+  transform: translate(-48px, -48px);
+}
+
+.profile__about {
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+
+  margin-top: 50px;
+
+}
+
+.profile__name {
+  padding-bottom: 15px;
+
+}
+
+.profile__age {
+  text-align: center;
+}
+
+.profile__location {
+  text-align: center;
+}
+
+.profile__list {
+  border-top: 1px solid var(--light-grey);
+  
+  padding: 1.3rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile__item {
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+
+}
+/* .profile__item strong */
+.profile__metric {
+  margin-bottom: 9px;
+}
+
+.profile__legend {
+
+}
+
+.profile__age, .profile__bio small, .profile__item small {
+  color:var(--dark-grey);  
+  font-weight: 400;
+}
