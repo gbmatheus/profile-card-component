@@ -1,0 +1,26 @@
+
+.profile__list {
+  border-top: 2px solid var(--light-grey);
+  
+  padding: 1.3rem;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.profile__item {
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+
+}
+
+.profile__metric {
+  margin-bottom: 9px;
+}
+
+.profile__legend {
+  color:var(--dark-grey);
+}

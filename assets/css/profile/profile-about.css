@@ -1,0 +1,15 @@
+.profile__about {
+  font-weight: 700;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.profile__name {
+  padding-bottom: 0.5rem;
+}
+
+.profile__age, .profile__location {
+  color:var(--dark-grey);  
+  font-weight: 400;
+}
