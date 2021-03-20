@@ -9,6 +9,12 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <title>Frontend Mentor | Profile card component</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./assets/css/normalize.css" rel="stylesheet">
+  <link href="./assets/css/reset.css" rel="stylesheet">
+  <link href="./assets/css/content.css" rel="stylesheet">
+  <link href="./assets/css/profile.css" rel="stylesheet">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -24,35 +30,44 @@
 </head>
 
 <body>
-  <section class="profile">
-    <div class="profile__detail">
-      <img src="" alt="" class="profile__image">
-      <h3 class="profile__name">
-        Victor Crest
-      </h3><span class="profile__age">26</span>
-      <p class="profile__location">
-        London
-      </p>
-      <ul>
-        <li>
-          <strong>80K </strong>
-          <p>Followers</p>
-        </li>
-        <li>
-          <strong>803K </strong>
-          <p> Likes</p>
-        </li>
-        <li>
-          <strong>1.4K </strong>
-          <p> Photos</p>
-        </li>
-      </ul>
+  <main class="content">
+    <section class="profile">
+      <div class="profile__detail">
+        <div class="profile__header">
+        <img class="profile__avatar" 
+          src="./images/image-victor.jpg" alt="Avatar" >
+        </div>
+        <div class="profile__about">
+          <p class="profile__name">Victor Crest <span class="profile__age">26</span></p>
+          <small class="profile__city">
+            London
+          </small>
+        </div>
+        <div>
+        <ul class="profile__list">
+          <li class="profile__item">
+            <strong class="profile__metric">80K</strong>
+            <small class="profile__legend">Followers</small>
+          </li>
+          <li class="profile__item">
+            <strong class="profile__metric">803K</strong>
+            <small class="profile__legend">Likes</small>
+          </li>
+          <li class="profile__item">
+            <strong class="profile__metric">1.4K</strong>
+            <small class="profile__legend">Photos</small>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
     </div>
-  </section>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 
 </html>
