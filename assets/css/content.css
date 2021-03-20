@@ -1,15 +1,27 @@
 .content {
-  background-image: url(../../images/bg-pattern-top.svg), url(../../images/bg-pattern-bottom.svg);
-  background-position: top -500px left -350px, right -250px bottom -650px;
-  background-size: auto, inherit;
+  background-image: url(../img/bg-pattern-top.svg), url(../img/bg-pattern-bottom.svg);
+  background-position: top -600px left -770px, right -740px bottom -650px;
   background-repeat: no-repeat, no-repeat;
-    
+  background-size: auto, auto;
+  
   width: 100vw;
-  height: calc(100vh - 20px);
+  height: calc(100vh - 15px);
   
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    background-position: top -600px left -565px, right -500px bottom -700px;
+  } 
+}
+
+@media screen and (min-width: 1440px) {
+  .content {
+    background-position: top -500px left -350px, right -250px bottom -650px;
+  }
 }
