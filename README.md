@@ -32,7 +32,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ### Links
 
 - [Solution URL](https://github.com/gbmatheus/profile-card-component)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](profile-card-component-gbmatheus.netlify.app)
 
 ## My process
 
